@@ -3,4 +3,49 @@
   href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
   type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" />
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>
+        Gibbon: History of the Rise and Fall of the Roman Empire
+      </title>
+    <titleStmt>
+      <publicationStmt>
+        <publisher>
+          Tufts Intro to DH Spring 2026
+        </publisher>
+      </publicationStmt>
+    <sourceDesc>
+      <p>
+        https://archive.org/details/historyofdeclinex01gibb/page/n25/mode/2up
+      </p>
+    <sourceDesc>
+  </fileDesc>
+</teiHeader>
+  
+<text>
+  <body>
+    <div type="Title" rend="centered"></div>
+      <head rend="smallcaps">THE</head>
+      <head>HISTORY</head>
+      <head rend="smallcaps">OF THE</head>
+      <head>DECLINE AND FALL</head>
+      <head rend="smallcaps">OF THE</head>
+      <head>ROMAN EMPIRE.</head>
+    </div>
+    <div type="Title" subtype="Chapter" n="1" rend="centered">
+      <l>
+        Chap 1
+      </l>
+      <l>
+        The Extent and Military Force of the Empire in the Age
+      </l>
+      <l>
+        of the Antonines.
+      </l>
+    </div>
+  </body>
+</text>
+</TEI>
